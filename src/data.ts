@@ -1,0 +1,7 @@
+export type Stay = { id: string; name: string; city: string; price: number; rating: number; image: string; description: string; amenities: string[] };
+export const stays: Stay[] = [
+ {id:'1',name:'Modern Loft with City View',city:'Calgary, Canada',price:135,rating:4.92,image:'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1000',description:'A bright, modern loft with comfortable living spaces and convenient access to the city.',amenities:['Wi-Fi','Kitchen','Workspace','Parking']},
+ {id:'2',name:'Cozy Mountain Cabin',city:'Banff, Canada',price:220,rating:4.98,image:'https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=1000',description:'Relax in a peaceful cabin surrounded by nature and spectacular mountain scenery.',amenities:['Mountain view','Kitchen','Heating','Parking']},
+ {id:'3',name:'Minimalist Downtown Apartment',city:'Vancouver, Canada',price:175,rating:4.85,image:'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1000',description:'A stylish apartment with everything needed for a comfortable short stay.',amenities:['Wi-Fi','Kitchen','Washer','Workspace']},
+ {id:'4',name:'Warm Family Home',city:'Toronto, Canada',price:195,rating:4.89,image:'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1000',description:'A spacious family-friendly retreat with a welcoming interior.',amenities:['Wi-Fi','Kitchen','Parking','Washer']}
+];
